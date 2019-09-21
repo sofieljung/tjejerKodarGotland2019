@@ -25,32 +25,43 @@ body {
   padding: 20px;
 }
 
+.contentRamIRam {
+  display: block;
+  background-color: #ffe5cc;
+  margin-top: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 500px;
+}
+
 .links {
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Kanit', sans-serif;
   text-decoration: none;
   padding-right: 30px;
   color: white;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
-.contact {
-  margin-top: 80px;
+.links:hover {
+  background-color: yellow;
 }
+
 
 h1 {
   color: #26190d;
   font-size: 65px;
   font-family: 'Barriecito', cursive;
-  margin: 15px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 h3 {
   color: #26190d;
   font-family: Baskerville, cursive;
-  margin: 5px;
+  margin-top: center;
+  padding: 30px:
 }
-
 
 .logga {
   height: 50px;
@@ -61,19 +72,33 @@ h3 {
 .backgroundPic {
   background-image: url("https://images.unsplash.com/photo-1535958636474-b021ee887b13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
   height:450px;
+  width: 100%;
   margin-bottom: 0;
   display: flex;
-
+  background-size: cover;
+  background-position: center;
 }
 
 .welcome {
   color: black;
-  font-family: 'Zeyada', cursive;
+  font-family:  Baskerville, cursive;
+  font-weight: 600i;
+  /* font-style: italic; */
   font-size: 40px;
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 .brödtext {
   color:  black;
   font-family: 'Libre Baskerville', serif;
+}
+
+.contact {
+  margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+  header {
+    background-color: yellow;
+  }
 }
