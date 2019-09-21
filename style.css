@@ -9,13 +9,16 @@ body {
   margin-right: 70px;
   margin-top: 30px;
   margin-bottom: 30px;
+  box-shadow: 0 0 15px white;
 }
 
 .menyRam {
   display: flex;
   align-items: top;
   justify-content: space-evenly;
-  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
   width: 100%;
 }
 
@@ -40,11 +43,14 @@ body {
   text-decoration: none;
   padding-right: 30px;
   color: white;
+  height: 35px;
+  transition: 0.5s all;
   /* font-style: italic; */
 }
 
 .links:hover {
-  background-color: yellow;
+  transition: 0.5s all;
+  font-size: 30px;
 }
 
 
