@@ -1,31 +1,43 @@
 function showAbout() {
-  show("About", "Hej jag heter mats");
+  show("About", "Vi som ligger bakom ett litet Lundabryggeri är:");
 
   document.getElementById("about").style.display="block";
-    document.getElementById("about1").style.display="block";
-      document.getElementById("about2").style.display="block";
+  document.getElementById("about1").style.display="block";
+  document.getElementById("about2").style.display="block";
+  document.getElementById("citat").style.display="none";
 
 }
 
 function showContact() {
-  show("Contact", "1234567890+0987<br>654321234567890987654323456789");
+  show("Contact", "123456789");
   document.getElementById("about").style.display="none";
   document.getElementById("about1").style.display="none";
   document.getElementById("about2").style.display="none";
+  document.getElementById("citat").style.display="none";
 }
 
 function showEvent() {
-  show("Events", "WOewoowooowowowowowowowoww");
+  show("Events", "Här kommer alla kommande events med oss!");
   document.getElementById("about").style.display="none";
   document.getElementById("about1").style.display="none";
   document.getElementById("about2").style.display="none";
+  document.getElementById("citat").style.display="none";
 }
 
 function showProducts() {
-  show("Products", "ÖLÖlölÖLöölölöLölöLöLölÖLö");
+  show("Products", "Våra produkter har funnits med oss sedan år tillbaka. Klassiker som passar varje bord! Dessa är: ");
   document.getElementById("about").style.display="none";
   document.getElementById("about1").style.display="none";
   document.getElementById("about2").style.display="none";
+  document.getElementById("citat").style.display="none";
+}
+
+function showIndex () {
+  show("Välkommen till oss", "Vi är mycket glada och stolta över att presentera vår senaste tillskott till bryggeriets ölfamilj.");
+  document.getElementById("about").style.display="none";
+  document.getElementById("about1").style.display="none";
+  document.getElementById("about2").style.display="none";
+  document.getElementById("citat").style.display="block";
 }
 
 function show(title, text) {

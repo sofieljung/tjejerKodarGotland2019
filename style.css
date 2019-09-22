@@ -14,12 +14,13 @@ body {
 
 .menyRam {
   display: flex;
-  align-items: top;
+  align-items: center;
   justify-content: space-evenly;
   padding-left: 100px;
   padding-right: 100px;
-  padding-top: 100px;
+  padding-top: 47px;
   width: 100%;
+  height: fit-content;
 }
 
 .contentRam {
@@ -34,10 +35,11 @@ body {
   margin-top: 0;
   margin-left: 30px;
   margin-right: 30px;
-  height: 500px;
+  height:auto;
   box-shadow: 0 0 5px grey;
   flex-direction: row;
-  padding-left: 50px;
+  padding: 50px;
+
 }
 
 .links {
@@ -95,13 +97,13 @@ h3 {
   font-weight: 600i;
   /* font-style: italic; */
   font-size: 40px;
-  padding-top: 50px;
 }
 
 .brödtext {
   color:  black;
   font-family: 'Libre Baskerville', serif;
   padding-top: 30px;
+  font-size: 20px;
 }
 
 .contact {
@@ -109,6 +111,7 @@ h3 {
   font-size: 30px;
   font-weight: bold;
   padding-left: 30px;
+  align-items: center;
 }
 
 .aboutBox {
@@ -128,6 +131,26 @@ h3 {
 
 .profilText {
   padding: 20px;
+}
+
+.citatRuta {
+  display: block;
+  border: 3px solid yellow;
+  height: 350px;
+  width: 800px;
+}
+
+.treRutor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contactRuta {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 /////////////////////
 
